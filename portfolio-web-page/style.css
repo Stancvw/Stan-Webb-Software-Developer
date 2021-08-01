@@ -1,0 +1,96 @@
+body {
+    color: #1A1423;
+}
+
+main p, ul {
+    text-align: left;
+    font-family: "bahnschrift";
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+    font-family: "times new roman";
+    padding: 10px
+}
+
+h1 {
+    font-size: 100px;
+}
+
+header, footer {
+    background-color: #1A1423;
+    color: #D0FEF5;
+    text-align: center;
+}
+
+header {
+    height: 175px;
+}
+
+main {
+    background-color: #D0FEF5;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+    border-radius: 25%;
+}
+
+.wrapper {
+    width: 600px;
+    margin: auto;
+}
+
+.intro {
+    margin-bottom: 50px;
+}
+
+.about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.items {
+    width: 75px;
+    padding: 20px;
+    margin: auto;
+}
+
+* {
+    padding:0;
+    margin:0;
+}
+
+
+            /* ------ Link styles ------ */
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+    text-decoration: underline;
+}
